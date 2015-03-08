@@ -1,0 +1,500 @@
+body {
+	text-align: center;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#contenedor {
+	text-align: left;
+	border: 1px solid #000000;
+	margin: 1em auto;
+	padding: 0;
+	width: 90%;
+	background-color: #bbbbbb;
+}
+
+/* Cabecera */
+
+#titulo {
+	background: transparent url(images/psicocara.png) no-repeat right;
+	width: auto;
+	height: 50px;
+	padding: 5px;
+}
+
+#titulo h1{
+	margin: 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#titulo div.textillo{
+	text-indent: 5em;
+}
+
+/* Elementos de la Barra de Navegación */
+
+#navegacion {
+	font-size: 90%;
+	width: 250px;
+	margin-top: 0;
+	margin-right: 5px;
+    margin-left: 0;
+	background-color: transparent;
+	padding-top: 0;
+    float: right;
+}
+
+.navegrup {
+	padding-left: 3px;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+
+.navegrup a{
+	text-decoration: none;
+}
+
+.navegrup h2 {
+	color: #000000;
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	margin-left: .5em;
+	padding-left: 13px;
+	text-align: left;
+}
+
+.navegrup ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+}
+
+.navegrup li {
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 110%;
+	display: block;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	list-style-type: none;
+}
+
+.navegrup li a {
+	text-decoration: none;
+}
+
+span.accesskey {
+	font-weight: bold;
+	font-size: 110%;
+}
+
+/* Posts */
+
+#cuerpo {
+	margin-left: 5px;
+    width: calc(100% - 265px);
+	float: left;
+	margin-top: 0;
+	margin-bottom: 5px;
+	background-color: transparent;
+}
+
+.articulo {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	padding: .5em;
+	margin-bottom: 1em;
+	color: #444444;
+}
+
+/* Cabecera del post (con fecha y sección) */
+
+div.estoyen {
+	text-align: right;
+	background-color: #ffffff;
+	border: dotted 1px #000000;
+	padding: .3em;
+	font-weight: bold;
+}
+
+div.estoyen a.estoyfecha{
+	text-decoration: none;
+}
+
+div.estoyen a.estoyseccion{
+	text-decoration: none;
+}
+
+/* Pie del post (con ) */
+
+a.comentarios {
+	text-decoration: none;
+}
+
+a.permalink {
+	text-decoration: none;
+}
+
+/* Contenido del Post */
+
+b {
+	color: #000000;
+}
+
+acronym {
+	border-bottom: 1px dashed #ff0000;
+	cursor: help;
+	color: #000000;
+}
+
+span.expli {
+	border-bottom: 1px dashed #ff0000;
+	cursor: help;
+	color: #000000;
+}
+
+.articulo h2 {
+	color: #000000;
+	font-size: 140%;
+	text-align: left;
+	padding-left: 2em;
+}
+
+.articulo h2:first-letter {
+	font-weight: normal;
+	padding: 0;
+	font-size: 160%;
+}
+
+.articulo h2 a:first-letter {
+	font-weight: normal;
+	padding: 0;
+	font-size: 160%;
+}
+
+.articulo h2 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+h2.error {
+	color: #ff0000;
+	font-size: 140%;
+	text-align: left;
+	padding-left: 28px;
+}
+
+h3 {
+	color: #000000;
+	text-align: left;
+	font-size: 120%;
+}
+
+.gusano {
+	border: solid 1px #00aa00;
+	font-family: serif;
+	font-size: 120%;
+	color: #004400;
+	margin: 2em;
+	padding: .5em;
+	padding-top: 6em;
+	background-color: #B0CD92;
+	background-repeat: no-repeat;
+	background-image: url(../img/gusano.jpg);
+}
+
+.gusano p {
+	margin-top: 0;
+}
+
+
+/* Colocar imágenes */
+
+img.marco {
+	border: 1px solid #000000;
+	margin: 5px;
+}
+
+img.marcoc {
+	border: 1px solid #000000;
+	display: block;
+	margin: auto;
+}
+
+img.marcod {
+	border: 1px solid #000000;
+	float:right;
+	margin: 5px;
+}
+
+img.marcoi {
+	border: 1px solid #000000;
+	float:left;
+	margin: 5px;
+}
+
+img.centrar {
+	border: none;
+	display: block;
+	margin: auto;
+}
+
+img.derecha {
+	border: none;
+	float:right;
+	margin: 5px;
+}
+
+img.izquierda {
+	border: none;
+	float:left;
+	margin: 5px;
+}
+
+
+
+blockquote {
+	border: 1px solid #000000;
+	background-color: #ffeebb;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: .5em;
+}
+
+.nota {
+	border: 1px dashed #ff0000;
+	margin: 1em;
+	padding: .5em;
+}
+.nota p {
+	margin-top: 0;
+}
+
+div.centrar {
+	text-align: center;
+}
+
+p.centrar {
+	text-align: center;
+}
+
+.clear {
+	visibility : hidden;
+	clear: both;
+}
+
+
+div.piepost {
+	text-align: right;
+	background-color: #ffffff;
+	border: dotted 1px #000000;
+	padding: .3em;
+	font-weight: bold;
+	clear: both;
+}
+
+/* Paginación */
+
+div.paginacion {
+	text-align: center;
+	background-color: #ffffff;
+	border: solid 1px #000000;
+	padding: .3em;
+	clear: both;
+	margin: .3em;
+}
+
+div.paginacion a.paginaant{
+	text-decoration: none;
+	padding-left: 1em;
+}
+
+div.paginacion a.paginapost{
+	text-decoration: none;
+	padding-right: 1em;
+}
+
+div.paginacion span.paginaant{
+	padding-left: 1em;
+}
+
+div.paginacion span.paginapost{
+	padding-right: 1em;
+}
+
+div.paginacion span.numpags{
+	font-weight: bold;
+}
+
+
+div.onanista {
+	border: solid 1px #000000;
+	padding: .5em;
+	margin-left: 50%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #000000;
+	background-color: #ffffbb;
+	clear: both;
+}
+
+div.onanista a {
+	font-weight: bold;
+}
+
+/* Comentarios */
+
+div.comentario {
+	border: dotted 1px #000000;
+	padding: 3px;
+	margin-bottom: 3px;
+}
+
+div.comentario span.autor {
+	font-weight: bold;
+}
+
+div.comentario div.texto{
+	margin-top: 11px;
+	margin-left: 11px;
+}
+
+
+
+div.trackback {
+	border: dotted 1px #000000;
+	padding: 3px;
+	margin-bottom: 3px;
+	background-color: #9999CC;
+}
+
+div.trackback  span.autor {
+	font-weight: bold;
+}
+
+div.trackback  div.texto{
+	margin-top: 11px;
+	margin-left: 11px;
+}
+
+
+
+
+/* Formularios */
+
+form.formcomentarios {
+	border: dotted 1px #000000;
+}
+
+form.formcomentarios div{
+	margin-left: 2em;
+	font-style: italic;
+}
+
+
+label.lineform {
+	display: block;
+	margin-left: 11px;
+	text-indent: -8px;
+	margin-top: 5px;
+}
+
+form.buscar {
+	font-size: 95%;
+}
+
+form.buscar input {
+	border: solid 1px #000000;
+	font-size: 95%;
+}
+
+.firma {
+	margin: 0 auto;
+	padding: 0;
+	width: 780px;
+	color: #ffffff;
+	text-align: right;
+}
+
+div.lecturas {
+	font-size: 80%;
+	font-style: italic;
+	margin-bottom: 1em;
+	color: #444444;
+	text-align: right;
+	clear: both;
+}
+
+.blogocuento {
+	font-style: italic;
+	font-weight: bold;
+}
+
+span.ffecha {
+	display: block;
+	float:left;
+	border: solid 1px #000000;
+	text-align: center;
+	background-color: #ffffff;
+	width: 65px;
+	margin: 5px;
+
+}
+span.fdia {
+display: block;
+font-size: 200%;
+}
+
+span.fmes {
+display: block;
+font-size: 60%;
+}
+
+div.labels{
+	float: right;
+	border: solid 1px #000000;
+	text-align: left;
+	margin: 5px;
+}
+
+div.labels ul{
+margin: 0px;
+padding: 5px;
+	list-style-type: none;
+}
+
+div.labels ul li{
+	font-weight: bold;
+	display: block;
+	list-style-type: none;
+}
+
+div.labels ul li a{
+text-decoration: none;
+}
+
+div.pblafolder {border: solid 1px #000000; margin-left: 10px; margin-right: 10px; margin-bottom: 5px; padding: 5px;}
+div.pblatitle {font-weight: bold;}
+div.pblaitem {}
+
+pre {font-family: monospace; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; padding: 1ex; color: #ffffff; background: #000000;}
+
+
+table.tabla tr td {border: solid 1px #000000;}
+table.tabla tr th {border: solid 1px #000000; font-weight: bold;}
+
